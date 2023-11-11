@@ -29,6 +29,9 @@ java {
 }
 
 minecraft {
+    jar {
+        archiveFileName.set('No Panching-1.16.5.jar')
+    }
     // The mappings can be changed at any time and must be in the following format.
     // Channel:   Version:
     // official   MCVersion             Official field/method names from Mojang mapping files
